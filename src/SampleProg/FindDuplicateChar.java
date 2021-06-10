@@ -11,7 +11,7 @@ public class FindDuplicateChar {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String str = "javaprogramminglanguagefortesting";
+		String str = "javaprogramminglanguagefortestingcode";
 		char[] strCharArr = str.toCharArray();
 		/*Set<Character> cSet = new HashSet<Character>();
 		for(char ch :strCharArr) {
