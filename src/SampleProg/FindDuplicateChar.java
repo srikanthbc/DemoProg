@@ -11,15 +11,15 @@ public class FindDuplicateChar {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String str = "javaProgramming";
+		String str = "javaProgramminglanguage";
 		char[] strCharArr = str.toCharArray();
-		Set<Character> cSet = new HashSet<Character>();
+		/*Set<Character> cSet = new HashSet<Character>();
 		for(char ch :strCharArr) {
 			
 			if(cSet.add(ch)==false) {
 				System.out.println(ch);
 			}
-		}
+		}*/
 		
 		
 		Map<Character,Integer> charMap = new HashMap<Character,Integer>();
